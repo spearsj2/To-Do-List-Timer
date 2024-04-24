@@ -17,7 +17,9 @@ The script also uses Regular Expression to check if any names or descriptions ar
 
 ## Checklist
 
+```md
 - [x] This task is complete.
+```
 
 - [X] Argument -h command output.
 - [X] Filled out the self-evaluation.
