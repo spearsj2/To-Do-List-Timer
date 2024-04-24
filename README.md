@@ -1,19 +1,19 @@
 # To-Do-List-Timer (Python Final)
 
-    The purpose of this repository is to use a mixture of Sqlite3, and Regex to create an active to-do list for keeping organized.
+The purpose of this repository is to use a mixture of Sqlite3, and Regex to create an active to-do list for keeping organized.
 ## Functions of the add_item.py script
-    -h or --help - This allows users to ask for help from the script.
-    --name [Clean kitchen] - This allows users to give their tasks a name.
-    --description [Wash the dishes and take out the trash] - This allows the user to give their tasks a detailed description.
-    --due [2024-04-24 00:00:00] - This allows the user to set a deadline for the timer.py script.
+-h or --help - This allows users to ask for help from the script.
+--name [Clean kitchen] - This allows users to give their tasks a name.
+--description [Wash the dishes and take out the trash] - This allows the user to give their tasks a detailed description.
+--due [2024-04-24 00:00:00] - This allows the user to set a deadline for the timer.py script.
 
-    The script also uses Regular Expression to check if any names or descriptions are the same and asks the user if they are sure they want to continue.
+The script also uses Regular Expression to check if any names or descriptions are the same and asks the user if they are sure they want to continue.
 
 ## Functions of the timer.py script
-    *No arguments need to be passed into this script, only user inputs from within the script.*
-    - The script tells the user the names, descriptions, and due dates of the tasks in the database.
-    - Moves tasks with expired deadlines to the Completed_Tasks table, and removes them from the tasks table.
-    - Tells the user if there are no active tasks that can be timed.
+*No arguments need to be passed into this script, only user inputs from within the script.*
+- The script tells the user the names, descriptions, and due dates of the tasks in the database.
+- Moves tasks with expired deadlines to the Completed_Tasks table, and removes them from the tasks table.
+- Tells the user if there are no active tasks that can be timed.
 
 ## Checklist
 
